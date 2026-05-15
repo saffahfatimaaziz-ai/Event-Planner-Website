@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+    <style>
+        nav{
+            height: 30px;
+        background-color:rgb(155, 46, 82);
+            padding: 8px;
+            font-size: 30px;
+            display: flex;
+            justify-content: space-around;
+            border-radius: 6px;
+           
+        }
+        a{
+            color: white;
+            text-decoration: none;
+           
+            
+        }
+        .Header{
+            height: 500px;
+         background-image: url(event2.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        
+         background-position: center;
+         height: 300px;
+        }
+        .Mainheading{
+           
+      font-family: Playfair-display;
+      font-size: 80px;
+         color:  rgb(107, 32, 57);
+        }
+        .Box{
+             height: 60px;
+      background-color: rgb(155, 46, 82);
+            padding: 5px;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            
+            
+        }
+        .boxheading{
+            font-style: italic;
+         
+        }
+        .Cards{
+            height: 600px;
+            padding: 20px
+           ;
+           background-color:  rgb(233, 209, 213);
+          
+           display: flex;
+           justify-content: space-evenly;
+           flex-wrap: wrap
+           
+        }
+        .birth{
+            width: 400px;
+            height: 250px;
+            background-color: blue;
+            background-image: url(BRONE.jpg);
+            box-shadow: 0px 0px 10px gray;
+            border-radius: 8px;
+            
+        }
+        
+        .two{
+            background-image: url(BRTWO.jpg);
+            background-position: center;
+        }
+        .three{
+            background-image: url(WD1.jpg);
+            background-size: cover;
+        }
+        .four{
+            background-image: url(WD2.jpg);
+            background-size: cover;
+        }
+        .five{
+            background-image: url(BNONE.jpg);
+            background-size: cover;
+        }
+        .six{
+            background-image: url(BNTWO.webp);
+            background-size: cover;
+            background-position: center;
+        }
+        .seven{
+            background-image: url(EDONE.jpg);
+            background-size: cover;
+        }
+        .eight{
+            background-image: url(EDTWO.webp);
+            background-size: cover;
+            background-position: center;
+        }
+         .Link{
+height: 40%;
+padding: 6PX;
+ background-color: rgb(155, 46, 82);
+text-align: center;
+font-size: 150%;
+        }
+        .Main{
+            height:800px;
+            background-color: palevioletred;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .Proof{
+ width: 500px;
+            height: 350px;
+    background-color: rgb(232, 217, 220);
+            padding: 8px;
+            text-align: center;
+           box-shadow: 0px 0px 10px gray;
+        }
+        .PO{
+            height: 250PX;
+            background-color: blanchedalmond;
+            background-image: url(BU\ 3.jpg);
+            border-radius: 20px;
+            
+        }.POTWO{
+            height: 250PX;
+            background-color: blanchedalmond;
+            background-image: url(wd.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+        }
+        .POTHREE{
+height: 250PX;
+            background-color: blanchedalmond;
+            background-image: url(BIRTHDAY\ EV.jpg);
+            background-size: cover;
+            background-position: center;
+border-radius: 20px;
+        }
+        .POFOUR{
+            height: 250PX;
+            background-color: blanchedalmond;
+            background-image: url(BIR2\ EV.jpg);
+            border-radius: 20px;
+        }
+        .POFIVE{
+            height: 250PX;
+            background-color: blanchedalmond;
+            background-image: url(wddd.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+        }
+        .POSIX{
+            height: 250PX;
+            background-color:white;
+            background-image: url(BU\ 1.jpg);
+            background-position: center;
+            background-size: cover;
+            border-radius: 20px;
+        }
+        p{
+         color:  rgb(155, 46, 82);;
+            font-size: 150%;
+        }
+        h1{
+            font-family: inter;
+            font-size: 200%;
+            text-decoration: solid underline;
+            color:  rgb(155, 46, 82);;
+        }
+        .PK{
+            height: 900px;
+          background-color: rgb(233, 209, 213);
+          display: flex;
+          justify-content: end;
+          margin: 20px;
+             color:  rgb(112, 27, 55);;
+          border-radius: 30px;
+       box-shadow: 0px 0px 20px  rgb(110, 35, 60);
+          
+        }
+        .Allpakeges{
+            width: 50%;
+            height: 700px;
+               color:  rgb(155, 46, 82);;
+            padding: 20px;
+            padding-top: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .rate{
+           
+            height: 150px;
+      background-color: white;
+            box-shadow: 0px 0px 10px rgb(126, 28, 60);
+            border-radius: 9px;
+            text-align: center;
+            
+        }
+        .rateH{
+                color:  rgb(155, 46, 82);;
+        }
+        .Quote{
+            
+            font-size: 80px;
+               color:  rgb(88, 20, 43);;
+               margin-top: 40px;
+               text-align: center;
+               font-family:fantasy;
+               
+        }
+        .hv{
+             width: 400px;
+            height: 250px;
+            transition: all 1s ease-in-out 0.2s;
+        }
+        .hv:hover{
+            width: 450px;
+            height: 300px;
+            box-shadow: 0px 0px 30px rgb(61, 23, 36);
+            
+        }
+        .pr{
+            height: 800px;
+              transition: all 1s ease-in-out 0.3s;
+
+        }
+        .pr:hover{
+            height: 850px;
+            box-shadow: 0px 0px 20px rgb(83, 42, 56);
+        }
+        .qr{
+            font-size: 75px;
+               color:  rgb(88, 20, 43);;
+               transition: all 1s ease-in-out 0.3s;
+        }
+        .qr:hover{
+            text-shadow: 0px 0px 20px palevioletred;
+            font-size: 80px ;
+        }
+       
+    </style>
+</head>
+<body>
+    <nav> 
+        
+   
+        <a href="#Cards">Cards</a>
+        <a href="#Services">Services</a>
+        <a href="#Pakeges">Pakeges</a>
+       
+    </nav>
+    <div class="Header">
+        <h1 class="Mainheading">
+           Forever   Begins  Event  CO</h1>
+    </div>
+    <div class="Box"><h1 class="boxheading">The      Court     Of     Celebrations</h1></div>
+<div class="Cards" id="Cards">
+    
+    <div class="birth hv"></div>
+      <div class="birth three hv" ></div>
+        <div class="birth two hv" ></div>
+          <div class="birth four hv"></div>
+             <div class="birth five hv"></div>
+                <div class="birth six hv"></div>
+                <div class="birth seven hv"></div>
+                  <div class="birth eight hv"></div>
+                
+
+
+
+
+
+</div>
+<div class="Link"> <a href="https://www.facebook.com/">Visit Our Profile</a></div>
+  <div class="Main" id="Services">
+    
+    <div class="Proof">
+        <div class="PO">
+        </div>
+        <h1>Family Dinner Event</h1>
+    <P> We organized CoperativE Family Dinner at Lahore </P>
+    </div>
+    <div class="Proof">
+        <div class="POTWO"></div>
+        <h1>Reciption Event</h1>
+    <P> We organized Reciption Event at Karachi </P>
+    </div>
+    <div class="Proof"> <DIV class="POTHREE"></DIV>
+    <h1>Birthday Event</h1>
+    <P> We organized Coperative Birthday Event at Lahore </P>
+    </div>
+    <div class="Proof"><DIv class="POFOUR"></DIv>
+    <h1>Birthday Event</h1>
+    <P> We organized Coperative Birthday Event at Sukkur </P></div>
+    <div class="Proof"><div class="POFIVE"></div>
+<h1>Wedding Event</h1>
+    <P> We organized  Wedding Event at Karachi </P></div>
+    <div class="Proof"><DIv class="POSIX"></DIv>
+    <h1>Business Event</h1>
+    <P> We organized Coperative Business Event at Lahore </P></div>
+    
+  </div>
+  <div class="PK " id="Pakeges">
+    <div class="Allpakeges pr">
+        <div class="rate">
+            <h1 class="rateH">  Wedding Event</h1>
+            <p >  (Dekoration      /      Catering    /       Photography     /         Music)
+
+                Price range: 500,000 - 2,000,000 PKR</p>
+        </div>
+        <div class="rate">
+            <h1 class="rateH">  Business Event</h1>
+            <p> (Venue  /     booking   /    Audio-visual   /     equipment    /Catering ) 
+                Price range: 100,000 - 500,000 PKR</p>
+        </div>
+        <div class="rate">
+            <h1 class="rateH">  Family Dinner Event</h1>
+            <p>(Venue setup     /  Food and drinks    /   Service   /    staff )
+            Price range: 20,000 - 100,000 PKR </p>
+        </div>
+        <div class="rate">
+            <h1 class="rateH">  Birthday Event</h1>
+            <p> (Theme / decoration  /Food and cake / Entertainment (clown, magician etc))
+                Price range: 50,000 - 200,000 PKR</p>
+        </div>
+        
+    </div>
+    <div class="Quote qr">Turning dreams into unforgettable experiences
+        <br>
+        Plan, Execute, Celebrate - Your way!
+        <br>Celebrate with perfection <br>
+        Creating memories, effortlessly
+   
+
+    </div>
+    
+  </div>
+</body>
+</html>

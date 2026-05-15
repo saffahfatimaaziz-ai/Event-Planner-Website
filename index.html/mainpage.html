@@ -1,0 +1,153 @@
+
+        
+    
+        
+        
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forever Begins Event CO</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff9fb;
+}
+
+/* Navbar */
+nav {
+  background: #4a2c2a;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 18px 0;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: #ffc857;
+}
+
+/* Hero Section */
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  min-height: 90vh;
+  align-items: center;
+  gap: 0;
+}
+
+.hero-img {
+  position: relative;
+  height: 100%;
+}
+.hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-img::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(74, 44, 42, 0.25);
+}
+
+.hero-text {
+  background: linear-gradient(135deg, #f8c8dc 0%, #f4a6c7 100%);
+  padding: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0 0 0 60px;
+  box-shadow: -10px 0 30px rgba(0,0,0,0.1);
+}
+
+.hero-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  color: #4a2c2a;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  font-size: 16px;
+  color: #3d2b2b;
+  line-height: 1.8;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #4a2c2a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: 0.3s;
+  width: fit-content;
+}
+.btn:hover {
+  background: #ffc857;
+  color: #4a2c2a;
+}
+
+/* Mobile Responsive */
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-text {
+    border-radius: 0;
+    padding: 50px 30px;
+  }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="Pageone.html">Home</a>
+  <a href="Pagetwo.html">Privacy Policy</a>
+  <a href="Pagethree.html">Details</a>
+  <a href="Pagefour.html">Contact Us</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-img">
+    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop" alt="Wedding Event">
+  </div>
+
+  <div class="hero-text">
+    <h1>Forever Begins<br>Event CO</h1>
+    <p>We turn your visions into unforgettable weddings, birthdays & corporate events. Creative planning, flawless execution, and stress-free celebrations — all designed around you.</p>
+    <p>Let’s build something amazing together.</p>
+    <a href="#" class="btn">Get in Touch</a>
+  </div>
+</section>
+
+</body>
+</html>
+

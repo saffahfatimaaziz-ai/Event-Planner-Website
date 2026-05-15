@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - Forever Begins Event CO</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f8c8dc 0%, #f4a6c7 50%, #f0e6f6 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 25px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-section {
+  background: linear-gradient(180deg, #4a2c2a 0%, #6d3f3b 100%);
+  color: #fff;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-section h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #ffc857;
+}
+
+.left-section p {
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.info-block {
+  margin-bottom: 25px;
+}
+
+.info-block h3 {
+  font-size: 18px;
+  color: #ffc857;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.info-block p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.right-section {
+  padding: 60px 50px;
+}
+
+.right-section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  color: #4a2c2a;
+  margin-bottom: 30px;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateX(5px);
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #f4a6c7, #ffc857);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: #4a2c2a;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.team-info h4 {
+  font-size: 16px;
+  color: #4a2c2a;
+  margin-bottom: 3px;
+}
+
+.team-info span {
+  font-size: 13px;
+  color: #777;
+}
+
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .left-section {
+    padding: 40px 30px;
+  }
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-section">
+      <div>
+        <h1>Get in Touch</h1>
+        <p>We’d love to hear about your event. Whether it’s a wedding, birthday, or corporate launch — our team is here to make it unforgettable.</p>
+        
+        <div class="info-block">
+          <h3>📍 Office Location</h3>
+          <p>123 Celebration Avenue, Jubilee Hills<br>Hyderabad, Telangana 500033</p>
+        </div>
+
+        <div class="info-block">
+          <h3>📞 Contact Numbers</h3>
+          <p>+91 98765 43210<br>+91 91234 56789<br>+91 99887 76655</p>
+        </div>
+
+        <div class="info-block">
+          <h3>✉️ Email</h3>
+          <p>hello@foreverbegins.com</p>
+        </div>
+      </div>
+      <p style="font-size: 12px; opacity: 0.7;">© 2025 Forever Begins Event CO. All rights reserved.</p>
+    </div>
+
+    <div class="right-section">
+      <h2>Meet Our Team</h2>
+      
+      <div class="team-member">
+        <div class="avatar">RF</div>
+        <div class="team-info">
+          <h4>Rafale Fatima</h4>
+          <span>Lead Event Planner</span>
+        </div>
+      </div>
+
+      <div class="team-member">
+        <div class="avatar">DF</div>
+        <div class="team-info">
+          <h4>Danish Fatima</h4>
+          <span>Creative Designer</span>
+        </div>
+      </div>
+
+      <div class="team-member">
+        <div class="avatar">DK</div>
+        <div class="team-info">
+          <h4>Danish Khan</h4>
+          <span>Operations Manager</span>
+        </div>
+      </div>
+
+      <div class="team-member">
+        <div class="avatar">RM</div>
+        <div class="team-info">
+          <h4>Rafale Malik</h4>
+          <span>Client Relations</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
